@@ -1,10 +1,11 @@
 .Container{
     margin-top: 100px;
-    background-color: rgb(255, 255, 255);
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(215, 215, 215);
+    border-radius: 20px;
     padding: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
+    width: 1000px;
+    display: flex;
+
 }
 
 .Label{

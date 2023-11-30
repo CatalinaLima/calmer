@@ -38,11 +38,11 @@ const ItemDetail = ({id,name,img,category,description,price,stock}) => {
                 <footer className="ItemFooter">
                 {quantityAdded > 0 ? (
                 <>
-                    <Link to="/cart" className="OptionDetail">
-                    Terminar compra
+                    <Link to="/cart" className="OptionDetail2">
+                    terminar compra
                     </Link>
-                    <Link to="/category/books" className="OptionDetail">
-                    Seguir comprando
+                    <Link to="/category/books" className="OptionDetail2">
+                    seguir comprando
                     </Link>
                 </>
                 ) : (

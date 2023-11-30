@@ -9,11 +9,17 @@
     justify-content: space-around;
     max-width: 240px;
     align-items: center;
+    align-content: space-around;
 }
 
 .Controls{
     display: flex;
     max-height: 50px;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
 }
 
 .Number{

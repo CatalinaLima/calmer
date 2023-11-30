@@ -13,13 +13,10 @@ const Item = ({id,name,img,price,stock}) => {
                 <h2 className = "ItemHeader">
                     {name}
                 </h2>
-            </header>
                 <p className="Info">
                     ${price}
                 </p>
-                {/* <p className="Info">
-                    stock : {stock} unidades
-                </p> */}
+            </header>
             </section>
         </article>
     )

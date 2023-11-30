@@ -42,11 +42,10 @@
         width: 100%;
     }
 
-    .OptionDetail{
+    .OptionDetail2{
         padding: 8px 20px;
         font-size: 15px;
         max-width: 150px;
-        border-color: black;
         background-color: none;
         border-radius:  10px; 
         margin: 5px 40px;
