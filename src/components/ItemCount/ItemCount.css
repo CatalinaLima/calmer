@@ -1,0 +1,34 @@
+.Counter{
+    border-radius: 15px;
+    padding: 12px 25px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+    justify-content: space-around;
+    max-width: 240px;
+    align-items: center;
+}
+
+.Controls{
+    display: flex;
+    max-height: 50px;
+}
+
+.Number{
+    font-weight: bolder;
+    font-size: 22px;
+    color: rgb(44, 48, 42);
+}
+
+.Button{
+    padding: 8px 20px;
+    font-size: 15px;
+    max-width: 150px;
+    border-color: black;
+    background-color: none;
+    border-radius:  10px; 
+    margin: 5px 40px;
+    cursor: pointer;
+}
