@@ -1,24 +1,34 @@
-# CALMER COFFEE & BOOKS
+# CALMER: Books & Coffee
+Web application project based on ReactJS for CALMER books & coffee - La Barra, Punta del Este
 
-Proyecto para una cafeteria y libreria llamada CALMER. 
+## Task
+This project was developed for my professional work and allows to buy books, access the menu, and obtaining general information
 
-## Como ejecutar este proyecto
+## To start 🚀
 
-1. Clona el repositorio utilizando el comando siguiente: 
-git clone https://github.com/CatalinaLima/calmercoffee.git
-2. Navega al directorio del proyecto: cd calmer
+These instructions will allow you to get a copy of the project up and running on your local machine for development and testing purposes.
+
+### Setup 🔧
+
+A series of step-by-step examples that tells you what to execute to have a development environment running.
+
+Once you have NodeJS and vite installed, you can run the project using the following commands:
+
+```
+npm i
+```
+
+_and_
+
+```
+npm run dev
+```
 
 
-## Proyecto
+## Built with 🛠️
 
-App creada para el curso de ReactJs de Coderhouse comision 43210. 
+* NodeJS
 
-Se aplicaron los siguientes conocimientos:
-- Context
-- Firebase
-- Generacion de orden
-- Cart view
-- Rendering conditional
 
 
 
