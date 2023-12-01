@@ -12,7 +12,7 @@ These instructions will allow you to get a copy of the project up and running on
 
 A series of step-by-step examples that tells you what to execute to have a development environment running.
 
-Once you have NodeJS and vite installed, you can run the project using the following commands:
+Once you have NodeJS and Create React App installed, you can run the project using the following commands:
 
 ```
 npm i
@@ -21,13 +21,13 @@ npm i
 _and_
 
 ```
-npm run dev
+npm run start
 ```
 
 
 ## Built with 🛠️
 
-* NodeJS
+* Create React App
 
 
 
