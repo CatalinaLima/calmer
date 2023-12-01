@@ -76,25 +76,61 @@ const Checkout = () => {
         return <h1 style={{marginTop: 90}} >Se esta generando su orden...</h1>
     }
 
-    // if (orderId) {
-    //     return (
-    //         <div>
-    //         <h1 style={{marginTop: 200}}>Muchas gracias por su compra!</h1>
-    //         <h1 style={{marginTop: 90}}>El id de su orden es: {orderId} </h1>
-    //     </div>
-    //     ) }
 
-    if (orderId) {
+
+      // if (orderId) {
+      //   return (
+      //     <div className="order-confirmation">
+      //       <h1>Muchas gracias por su compra, {name}!</h1>
+      //       <h2>El ID de su orden es: {orderId}</h2>
+      //       <div className="order-details">
+      //         <h3>Detalles de la compra:</h3>
+      //         <ul>
+      //           {cart.map((product) => (
+      //             <li key={product.id}>
+      //               <div className="product-info">
+      //                 <img
+      //                   src={product.image} // Asegúrate de tener el campo "image" en tu documento de producto
+      //                   alt={product.name}
+      //                   className="product-image"
+      //                 />
+      //                 <div className="product-details">
+      //                   <p>{product.name}</p>
+      //                   <p>Cantidad: {product.quantity}</p>
+      //                   <p>Precio: ${product.price * product.quantity}</p>
+      //                 </div>
+      //               </div>
+      //             </li>
+      //           ))}
+      //         </ul>
+      //         <p>Total: ${total}</p>
+      //       </div>
+      //     </div>
+      //   );
+      // }
+
+      if (orderId) {
         return (
           <div className="order-confirmation">
             <h1>Muchas gracias por su compra, {name}!</h1>
-            <h2>El ID de su orden es: {orderId} </h2>
+            <h2>El ID de su orden es: {orderId}</h2>
             <div className="order-details">
               <h3>Detalles de la compra:</h3>
               <ul>
                 {cart.map((product) => (
                   <li key={product.id}>
-                    {product.name} - Cantidad: {product.quantity} - Precio: ${product.price * product.quantity}
+                    <div className="product-info">
+                      <img
+                        src={product.image} // Asegúrate de tener el campo "image" en tu documento de producto
+                        alt={product.name}
+                        className="product-image"
+                      />
+                      <div className="product-details">
+                        <p>{product.name}</p>
+                        <p>Cantidad: {product.quantity}</p>
+                        <p>Precio: ${product.price * product.quantity}</p>
+                      </div>
+                    </div>
                   </li>
                 ))}
               </ul>
@@ -104,13 +140,6 @@ const Checkout = () => {
         );
       }
 
-//     return (
-//         <div className="Checkout">
-//             <h1>FINALIZA TU COMPRA!</h1>
-//             <CheckoutForm onConfirm = {createOrder}/>
-//         </div>
-//     )
-// }
 
 return (
     <div className="Checkout">
