@@ -1,0 +1,45 @@
+
+.distribution-section {
+  padding: 40px 0;
+  background-color: #f8f8f8;
+}
+
+.distribution-content {
+  max-width: 1200px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: column;
+  align-content: center;
+}
+
+.distribution-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px 300px;
+}
+
+.distribution-text {
+  text-align: justify;
+  margin: 40px 50px;
+}
+
+.distribution-text h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.distribution-text p {
+  font-size: 16px;
+  color: #555;
+}
+
+.distribution-image img {
+  max-width: 250px;
+  height: auto;
+  
+}
+
+

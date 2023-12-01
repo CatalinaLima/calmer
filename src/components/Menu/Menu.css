@@ -1,0 +1,15 @@
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.menuimg{
+    width: 700px;
+    height: 1000px;
+    margin: 100px;
+}
+
+
+
